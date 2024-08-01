@@ -1,0 +1,26 @@
+@use "../abstracts";
+.header__logo {
+  display: flex;
+  align-items: center;
+  &--image {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  &--title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 16px;
+    color: #000;
+  }
+}
+
+.box {
+  width: 28.8px;
+  height: 28.8px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}

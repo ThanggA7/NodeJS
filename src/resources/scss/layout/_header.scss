@@ -1,0 +1,44 @@
+@use "../abstracts";
+.header {
+  padding: 18px;
+  border-bottom: 1px solid #ccccccb8;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__search {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  width: 420px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 36px;
+}
+
+input[name="q"] {
+  width: 100%;
+  padding: 15px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+}
+
+.header__author--title {
+  margin-right: 16px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px;
+  color: #333;
+}
+
+.header__author {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
